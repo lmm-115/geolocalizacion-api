@@ -1,0 +1,43 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-image: url(map.avif);
+	background-size: cover;
+}
+
+section{
+	font-size: 15px;
+}
+
+button{
+	border-radius: 500px;
+	background-color: white;
+	padding: 15px;
+	border: 0px;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #fff200;
+}
+
+h2{
+	color: #198983;
+	text-align: center;
+	font-size: 25px;
+}
+
+h3{
+	color: red;
+}
+
+#map {
+	text-align: center;
+	height: 500px;
+	width: 80%;
+	display: none;
+	margin-left: 150px;
+	border-radius: 20px;
+	border: 10px;
+}
